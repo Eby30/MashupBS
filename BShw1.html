@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body class="p-4">
+    <!--Main heading and sub heading-->
+    <div class="text-center">
+        <h1 class="font-weight-bold">Our Team</h1>
+        <h3 class="text-muted">Building the future together</h3>
+    </div>
+    <!--A Quote on teamwork-->
+    <blockquote class="blockquote text-center">
+        <p>"Alone we can do so little; together we can do so much."</p>
+    </blockquote>
+
+    <!--team values-->
+    <section class="mt-4">
+    <h5 class="fw-semibold">Our Core Values</h5>
+     <ul class="list-group mb-4">
+         <li class="list-group-item">Collaboration</li>
+        <li class="list-group-item">Integrity</li>
+        <li class="list-group-item">Innovation</li>
+     </ul>
+    </section>
+
+    <!--Team Photo-->
+    <img src="istockphoto-2209178891-612x612.jpg"
+        class="rounded-circle d-block mx-auto my-3 "
+        width="180" height="180"alt="Team Photo">
+    
+    <!--Employee Table-->
+    <div class="container mt-4">
+        <h5 class="fw-semibold mb-3">Employee Status</h5>
+        <table class=" table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>Project Manager</td>
+                    <td class="text-success fw-bold">Active</td>
+                </tr>
+                <tr>
+                    <td>Bob Smith</td>
+                    <td>Lead Developer</td>
+                    <td class="text-warning fw-bold">On Leave</td>
+                </tr>
+                <tr>
+                    <td>Charlie Brown</td>
+                    <td>UX Designer</td>
+                    <td class="text-danger fw-bold">Resigned</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--Warning cause not everyone are active-->
+    <div class="alert alert-warning text-center mt-3" role="alert">
+        Warning! Not all team members are currently active.
+    </div>
+</body>
+</html>
