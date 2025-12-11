@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Feature Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Featured Products</h2>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="watch.webp" class="card-img-top" alt="Smart Watch">
+                <div class="card-body">
+                    <h5 class="card-title">Smart Watch</h5>
+                    <p class="card-text">Track your health and stay connected with our advanced smart watch.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+
+                    <div class="dropdown d-inline ml-2">
+                        <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                            Options
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Add to Wishlist</a>
+                            <a class="dropdown-item" href="#">Compare</a>
+                            <a class="dropdown-item" href="#">Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="headphone.webp"
+                 class="card-img-top" alt="Headphones">
+                <div class="card-body">
+                    <h5 class="card-title">Premium Headphones</h5>
+                    <p class="card-text">Experience immersive sound with noise-cancelling technology.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+
+                    <div class="dropdown d-inline ml-2">
+                        <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                            Options
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Add to Wishlist</a>
+                            <a class="dropdown-item" href="#">Compare</a>
+                            <a class="dropdown-item" href="#">Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600" class="card-img-top" alt="Camera">
+                <div class="card-body">
+                    <h5 class="card-title">Digital Camera</h5>
+                    <p class="card-text">Capture stunning photos with high resolution and clarity.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+
+                    <div class="dropdown d-inline ml-2">
+                        <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                            Options
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Add to Wishlist</a>
+                            <a class="dropdown-item" href="#">Compare</a>
+                            <a class="dropdown-item" href="#">Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <h3 class="mt-5">Product FAQs</h3>
+
+    <div id="faqAccordion">
+
+        <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#faq1">
+                <h5 class="mb-0">What is the warranty period?</h5>
+            </div>
+            <div id="faq1" class="collapse show" data-parent="#faqAccordion">
+                <div class="card-body">
+                    All products come with a 1-year manufacturer warranty.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#faq2">
+                <h5 class="mb-0">Do you offer free shipping?</h5>
+            </div>
+            <div id="faq2" class="collapse" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Yes, free shipping is available for orders above ₹999.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#faq3">
+                <h5 class="mb-0">Can I return a product?</h5>
+            </div>
+            <div id="faq3" class="collapse" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Products can be returned within 7 days of delivery.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
